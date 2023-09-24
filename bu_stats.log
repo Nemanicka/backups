@@ -1,0 +1,13 @@
+total 25564
+drwxrwxrwx 2 root    root       4096 Sep 24 21:13 .
+drwxr-xr-x 4 oleksii oleksii    4096 Sep 24 21:13 ..
+-rw-r--r-- 1 root    root      22417 Sep 24 20:55 delta_file_diff_1_diff_2
+-rw-r--r-- 1 root    root      55096 Sep 24 21:12 delta_file_full_1_full_2
+-rw-r----- 1   10001 root    3002368 Sep 24 20:44 pets_full_1.bak
+-rw-r----- 1   10001 root    6152192 Sep 24 21:11 pets_full_2_reverse_delta.bak
+-rw-r----- 1   10001 root    6152192 Sep 24 21:13 pets_full_3_reverse_delta.bak
+-rw-r----- 1   10001 root    6262784 Sep 24 20:49 pets_incr_1.DIF
+-rw-r----- 1   10001 root    4513792 Sep 24 20:50 pets_incr_2.DIF
+
+
+2nd full bu time = 0.22s

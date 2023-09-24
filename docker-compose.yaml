@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  mssql_db:
+    container_name: mssql
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "${MSSQL_SA_PASSWORD:-qweQWE123}"
+    volumes:
+       - ./backups/:/var/opt/mssql/backups:rw
+    ports:
+      - "1433:1433"
